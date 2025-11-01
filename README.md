@@ -31,11 +31,8 @@ O foco está em **minimizar falsos negativos**, priorizando **sensibilidade (rec
 > Exemplo de visualizações:
 >
 > ![Distribuição da glicose](./images/glucose_distribution.png)  
-*Distribuição da glicose por classe de diabetes.*
 > ![Matriz de correlação](./images/correlation_matrix.png)  
-*Correlação entre variáveis clínicas.*
 > ![Violinplot - BMI vs Outcome](./images/violinplot_insulin_outcome.png)
-*Distribuição da insulina conforme o outcome.*  
 
 ### 🤖 Modelagem
 Foram testados três algoritmos de classificação supervisionada:
@@ -59,9 +56,8 @@ Os modelos foram avaliados pelas seguintes métricas:
 > **Random Forest** apresentou o melhor desempenho geral, com ótimo equilíbrio entre sensibilidade e precisão, além de menor log-loss — indicando previsões mais confiáveis.
 
 > ![Curva ROC - Random Forest](./images/roc_curve_rf.png)  
-*curva ROC do Random Forest.*
 > ![Matriz de confusão - Random Forest](./images/confusion_matrix_rf.png)
-*Matriz de Confusão do Random Forest.*
+
 
 ---
 
